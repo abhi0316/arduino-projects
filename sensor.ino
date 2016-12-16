@@ -72,7 +72,7 @@ void loop()
     Whole = Tc_100 / 1000;  
     Fract = Tc_100 % 100;
      lcd.print(Whole);
-     lcd.print(".")
+     lcd.print(".");
      lcd.print(Fract);
 
   }
